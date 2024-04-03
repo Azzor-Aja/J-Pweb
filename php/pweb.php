@@ -38,12 +38,12 @@
         <th><?= $data["pass"] ?></th>
         <th><?= $data["jenis_kelamin"] ?></th>
         <th><?= $data["agama"] ?></th>
-        <th><i style="cursor: pointer;" class="fa-solid fa-trash"></i></i></th>
         <?php 
         $update = "SELECT * FROM siswa";
         $id = $data["no"];
         ?>
-        <th><a href="../index.php?id= <?php echo $id ?>"><i style="cursor: pointer;"  class="fa-solid fa-plus"></i></a></th>
+        <th><a href="../delete.php?id=<?= $id ?>"><i style="cursor: pointer;" class="fa-solid fa-xmark"></i></a></th>
+        <th><a href="../index.php?id=<?= $id ?>"><i style="cursor: pointer;"  class="fa-solid fa-plus"></i></a></th>
     </tr>
     <?php } ?>
 
