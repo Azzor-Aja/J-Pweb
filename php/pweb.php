@@ -35,7 +35,7 @@
         <th><?= $data["nama"] ?></th>
         <th><?= $data["username"] ?></th>
         <th><?= $data["email"] ?></th>
-        <th><?= $data["password"] ?></th>
+        <th><?= $data["pass"] ?></th>
         <th><?= $data["jenis_kelamin"] ?></th>
         <th><?= $data["agama"] ?></th>
         <th><i style="cursor: pointer;" class="fa-solid fa-trash"></i></i></th>
