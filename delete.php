@@ -6,7 +6,7 @@
     if ($sql) {
         echo 
         "<script>
-            alert(\"Berhasil Menghapus Data\");
+             alert(\"Berhasil Menghapus Data\");
         </script>";
     }
     else {

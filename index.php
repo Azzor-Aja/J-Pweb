@@ -11,10 +11,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <title>Form Register Sederhana ||</title>
 </head>
 <body>
-        <?php if(!isset($id)) {?>
+    <?php if(!isset($id)) {?>
         <fieldset>
             <legend>Update</legend>
             <form action="" method="post">
@@ -53,9 +54,8 @@
                 <button type="submit" name="submit">input</button>
             </form>
         </fieldset>
-        <?php }  ?>
-
-        <?php if (isset($id)) {  ?>
+    <?php }  ?>
+    <?php if (isset($id)) {  ?>
         <fieldset>
             <legend>Register</legend>
             <form action="" method="post">
