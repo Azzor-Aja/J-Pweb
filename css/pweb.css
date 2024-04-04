@@ -22,20 +22,31 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.data-in .content {
+    width: 1150px;
+    background-color: rgba(222, 196, 163, 0.27);
+    padding: 10px 0 20px 0;
+    border-radius: 5px;
 }
 
 .data-in .title {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    align-items: start;
     flex-direction: column;
     margin-bottom: 5px;
+    margin : 5px 0 0 25px;
+    color: rgba(59, 54, 54, 0.850);
 }
 
 .data-in .garis {
-    padding: 2px 70px 2px 110px;
-    background-color: rgb(68, 70, 70);
+    margin-top: 3px;
+    padding: 2px 70px 2px 95px;
+    background-color: rgba(59, 54, 54, 0.850);
     border-radius: 10px;
 }
 
@@ -48,9 +59,9 @@
 th .fa-xmark {
     color: red;
     border: 3px solid rgb(249, 172, 172);
-    font-size: 20pt;
-    padding: 5px 10px 5px 10px;
-    margin: 5px 0 5px 0;
+    font-size: 18pt;
+    padding: 5px 8px 5px 8px;
+    margin: 10px 0 10px 0;
     border-radius: 10px;
     transition: 500ms ease-in-out;
 }
@@ -63,9 +74,9 @@ th .fa-xmark:hover {
 th .fa-plus {
     color: blue;
     border: 3px solid rgb(156, 156, 253);
-    font-size: 18pt;
-    padding: 5px 10px 5px 10px;
-    margin: 5px 0 5px 0;
+    font-size: 16pt;
+    padding: 5px 7px 5px 7px;
+    margin: 10px 0 10px 0;
     border-radius: 10px;
     transition: 500ms ease-in-out;
 }
