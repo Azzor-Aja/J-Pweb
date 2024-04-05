@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.data-all {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.data-all .data {
+    width: 1600px;
+    display: flex;
+    justify-content: center;
+}
+
+.data-all .data .data-in {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.data-in .content {
+    width: 1150px;
+    background-color: rgb(243, 241, 241);
+    padding: 10px 0 20px 0;
+    border-radius: 5px;
+    box-shadow: 9px 13px 12px -5px rgba(0,0,0,0.39);
+}
+
+.data-in .title {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    margin : 5px 0 0 40px;
+    font-size: 16pt;
+    color: rgb(59, 58, 58);
+}
+
+.data-in .item {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.item .table {
+    width: 1150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table, tr, th {
+    border-collapse: collapse;
+}
+
+table tr th{
+    font-size: 10pt;
+}
+
+table tr:nth-child(even){
+    background-color: rgb(157, 157, 157);
+}
+
+.item .input {
+    display: flex;
+    justify-content: end;
+    margin: 20px 45px 0 0;
+}
+
+.item .input a {
+    font-size: 10pt;
+    padding: 5px 5px 5px 10px;
+    background-color: rgb(89, 87, 87);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.item .input a i {
+    margin: 0 5px 0 5px;
+    color: white;
+}
+
+th .fa-trash {
+    color: black;
+    font-size: 12pt;
+    padding: 5px 8px 5px 8px;
+    margin: 5px 0 5px 0;
+    border-radius: 10px;
+    transition: 500ms ease-in-out;
+}
+
+th .fa-trash:hover {
+    color: red;
+}
+
+th .fa-pencil {
+    color: black;
+    font-size: 14pt;
+    padding: 5px 7px 5px 7px;
+    margin: 5px 0 5px 0;
+    border-radius: 10px;
+    transition: 500ms ease-in-out;
+}
+
+th .fa-pencil:hover {
+    color: blue;
+}
